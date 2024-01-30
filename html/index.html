@@ -3,73 +3,69 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Meine Homepage</title>
+    <title>Meine Webseite</title>
     <style>
         body {
             font-family: Arial, sans-serif;
-            margin: 20px;
-            padding: 20px;
+            margin: 0;
+            padding: 0;
         }
+
         header {
-            text-align: center;
-            padding: 10px;
-            background-color: #f2f2f2;
-        }
-        nav {
-            display: flex;
-            justify-content: center;
             background-color: #333;
-            padding: 10px;
-        }
-        nav a {
-            color: white;
-            text-decoration: none;
-            padding: 10px;
-            margin: 0 10px;
-        }
-        section {
-            margin: 20px 0;
-        }
-        footer {
+            color: #fff;
             text-align: center;
             padding: 10px;
+        }
+
+        nav {
+            float: left;
+            width: 20%;
             background-color: #f2f2f2;
+            padding: 15px;
+            box-sizing: border-box;
+        }
+
+        main {
+            float: left;
+            width: 80%;
+            padding: 15px;
+            box-sizing: border-box;
+        }
+
+        footer {
+            clear: both;
+            background-color: #333;
+            color: #fff;
+            text-align: center;
+            padding: 10px;
+            position: fixed;
+            bottom: 0;
+            width: 100%;
         }
     </style>
 </head>
 <body>
 
     <header>
-        <h1>Willkommen auf meiner Homepage</h1>
+        <h1>Meine Webseite</h1>
     </header>
 
     <nav>
-        <a href="#start">Startseite</a>
-        <a href="#über-mich">Über mich</a>
-        <a href="#kontakt">Kontakt</a>
+        <ul>
+            <li><a href="#">Startseite</a></li>
+            <li><a href="#">Über uns</a></li>
+            <li><a href="#">Kontakt</a></li>
+        </ul>
     </nav>
 
-    <section id="start">
-        <h2>Startseite</h2>
-        <p>Herzlich willkommen auf meiner Homepage. Hier finden Sie Informationen über...</p>
-    </section>
-
-    <section id="über-mich">
-        <h2>Über mich</h2>
-        <p>Hier erzähle ich ein wenig über mich und meine Interessen.</p>
-    </section>
-
-    <section id="kontakt">
-        <h2>Kontakt</h2>
-        <p>Sie können mich über die folgenden Kanäle kontaktieren:</p>
-        <ul>
-            <li>Email: <a href="mailto:deinemudda@email.com">deineeeeee@email.com</a></li>
-            <li>Telefon: +49 123 456789</li>
-        </ul>
-    </section>
+    <main>
+        <h2>Willkommen auf unserer Webseite!</h2>
+        <p>Dies ist der Hauptinhalt der Webseite.</p>
+    </main>
 
     <footer>
-        <p>&copy; 2024 Meine Homepage. Alle Rechte vorbehalten.</p>
+        &copy; 2024 Meine Webseite. Alle Rechte vorbehalten.
     </footer>
 
 </body>
