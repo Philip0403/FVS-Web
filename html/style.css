@@ -21,7 +21,8 @@ nav {
 
 main {
     float: left;
-    width: 60%; /* Reduzierte Breite des Hauptbereichs für die Sidebar */
+    width: 60%;
+    background-color: green; /* Grüne Hintergrundfarbe für den Hauptbereich */
     padding: 15px;
     box-sizing: border-box;
 }
